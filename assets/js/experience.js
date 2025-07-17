@@ -5,6 +5,16 @@ AOS.init();
 const experiencecards = document.querySelector(".experience-cards");
 const exp = [
   {
+    title: "Programming Instructor – iCode Columbia",
+    cardImage: "assets/images/experience-page/icode-logo.png",
+    place: "iCode Columbia",
+    time: "Summer 2025",
+    desp: `<p>As a Programming Instructor at iCode Columbia, I taught students aged 7in Python, Scratch, Minecraft Modding, AI, and game development using tools like Construct 3 Tynker.</p>
+      <li>Led interactive sessions focused on logic building, game design, and creative problem solving.</li>
+      <li>Customized lessons based on student skill levels to ensure inclusivity and engagement.</li>
+      <li>Created fun and educational projects, encouraging hands-on learning through coding challenges and real-time feedback.</li>`
+  },
+  {
     title: "Machine Learning Intern",
     cardImage: "assets/images/experience-page/bharat.jpg",
     place: "Bharat Intern",
