@@ -142,7 +142,7 @@ I'm a passionate software developer and technology enthusiast with expertise in:
 - **LinkedIn**: [Aryan Jagani](https://www.linkedin.com/in/aryan-jagani-338066216/)
 - **GitHub**: [@ARYANJAGANI](https://github.com/ARYANJAGANI)
 - **Instagram**: [@jagani_aryan09](https://www.instagram.com/jagani_aryan09/)
-- **Email**: [Your Email Address]
+- **Email**: aryanjagani2024@gmail.com
 
 ## 🙏 Acknowledgments
 
