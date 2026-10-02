@@ -2,6 +2,8 @@
 
 A responsive static portfolio for Aryan's work in data engineering, applied AI, and human-centered research. Simplified October 2026 with plain typography, sage, muted blue, and warm sand accents, text-only project cards, and straightforward copy.
 
+Live site: [aryanjagani.github.io/Portfolio](https://aryanjagani.github.io/Portfolio/)
+
 ## Preview locally
 
 Run from this folder:
@@ -29,7 +31,7 @@ The HTML is pre-rendered so the main content and links work without JavaScript. 
 
 ## Content sources and review notes
 
-The current source of truth is `assets/docs/Aryan_Jagani_Resume_DE_ModernStack.pdf`, supplied by Aryan as his latest resume. All resume buttons link to this unchanged PDF. The homepage and supporting pages reflect its data engineering focus, dbt/Snowflake/Airflow stack, production geospatial platform, NSF HDR second-place result, GPA 3.95, and August 2026 graduation.
+The current source of truth is `assets/docs/Aryan_Jagani_Data_Engineer_Resume.pdf`, supplied by Aryan as his latest resume. All resume buttons link to this unchanged PDF. The homepage and supporting pages reflect its data engineering focus, dbt/Snowflake/Airflow stack, production geospatial platform, NSF HDR second-place result, GPA 3.95, and August 2026 graduation.
 
 Current experience dates are September 2025–August 2026 for UMBC iHARP and thesis research, and June–August 2026 for GWU HIVE Lab. The LinkedIn URL and B.E. Computer Science degree wording follow the new resume. Earlier projects and teaching roles remain from the original portfolio where they do not conflict with the latest resume. Existing repository links have not been independently verified. The ELT project uses the demo URL embedded in the supplied resume; no repository URL was invented.
 
@@ -37,7 +39,7 @@ Decorative project illustrations and the illustrated portrait have been removed 
 
 ## Publishing
 
-Upload the static pages and referenced assets to the existing host, or commit them to the GitHub Pages repository. This workspace is an extracted folder without `.git`; these changes have not been published. If the public domain or repository path changes, update `BASE` in the build script before regenerating.
+The site is published through GitHub Pages from the `main` branch of `ARYANJAGANI/Portfolio`. If the public domain or repository path changes, update `BASE` in the build script before regenerating.
 
 ## Checks
 
