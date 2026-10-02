@@ -80,8 +80,9 @@ def projects(archive=False):
             index += 1
             name,category,tags_key,kind,desc,tags,repo = project
             url = repo if repo.startswith('https://') or '.html#' in repo else GITHUB+'/'+repo
+            title_link = escape(name) if name == 'Walmart Data Engineering Project' else external(url, escape(name))
             demo = f'<p class="project-demo">{external(DEMO_LINKS[name], "View demo ↗", "text-link")}</p>' if name in DEMO_LINKS else ''
-            cards += f'''<article class="project-card" data-category="{tags_key}"><div class="project-meta"><span>{category}</span></div><{card_heading} class="project-title">{external(url,escape(name))}</{card_heading}><p>{escape(desc)}</p><div class="project-tags">{''.join('<span>'+escape(tag)+'</span>' for tag in tags)}</div>{demo}</article>'''
+            cards += f'''<article class="project-card" data-category="{tags_key}"><div class="project-meta"><span>{category}</span></div><{card_heading} class="project-title">{title_link}</{card_heading}><p>{escape(desc)}</p><div class="project-tags">{''.join('<span>'+escape(tag)+'</span>' for tag in tags)}</div>{demo}</article>'''
         more = '' if archive else f'<a class="text-link collection-more" href="projects.html#{key}-projects">View all {len(collection)} {"data & analytics" if key == "data" else "AI & ML"} projects <span class="arrow">↗</span></a>'
         output += f'''<section class="project-collection track-{key}" id="{key}-projects" aria-labelledby="{key}-projects-title"><div class="collection-heading"><div><{heading} id="{key}-projects-title">{title}</{heading}><p>{description}</p></div><span class="collection-count">{len(chosen):02d} {"projects" if archive else "selected"}</span></div><div class="project-grid">{cards}</div>{more}</section>'''
     return output
